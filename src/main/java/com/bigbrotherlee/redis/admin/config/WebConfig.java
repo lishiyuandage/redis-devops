@@ -9,7 +9,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
-@Configuration
+//@Configuration
 public class WebConfig {
 	private List<String> allowDomains =Arrays.asList("https://bigbrotherlee.com","http://localhost:8080");
 	private List<String> allowHeaders =Arrays.asList("Authorization","Cookie","Token","content-type");
